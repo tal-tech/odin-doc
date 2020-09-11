@@ -1,27 +1,38 @@
-# 简介
-------
+ * [**简介**](README.md)
 
-Odin是基于go语言的rpc框架，框架除了致力于提供高性能的服务间调用能力外，也提供完善的服务治理功能、支持多种服务注册发现机制。为了业务方使用框架更加便捷，框架还具有配套管理工具自动生成代码，提高开发效率。
+ * [**rpc框架对比**](framework.md)
+    * [功能对比](compare1.md)
+    * [性能对比](compare2.md)
 
-## 框架特点
+ * [**安装升级**](install.md)  
 
-### 高性能
-首先，框架底层基于rpcx框架，其是一个纯Go语言的rpc框架，与主流rpc框架进行性能对比，优势明显。其性能仅弱于Go原生rpc调用。
+ * [**快速入门**](quickstart/directory.md)
+    * [目录结构](quickstart/directory.md)
+    * [运行](quickstart/run.md)
 
-### 服务治理
-odin框架可提供统一的服务注册管理，仅通过配置地址方式即可方便使用以及切换服务注册中心。在支持原生容错和负载均衡机制基础上，开发插件系统，包括限流、断路器、打点统计、耗时报警等。
+* [**配置**](config.md)
+        
+* [**服务注册**](registry.md)
 
-### 开发便捷
-odin结合配套的辅助工具rigger，可以直接生成框架模板，业务使用方只需定义对外提供接口，可自动生成服务代码，开发只需编写业务逻辑。提供给其他服务的client代码，同样可命令生成，方便调用。
+* [**插件**](middleware.md)
 
-### 自定义支持
-Odin框架目前已支持日志Trace跨服务传递，记录一次完整请求的所有记录，根据同一TraceID，查看全部链路。其他包括动态插件都可自定义开发，只需最终在main注入即可。
+* [**容灾**](recovery/failmode.md)
+    * [FailMode](recovery/failmode.md)
+    * [断路器](recovery/breaker.md)
+    * [限流](recovery/ratelimit.md)
 
-## 框架共建
-我们的目标是将Odin打造成一个高性能、高可靠、易治理的微服务框架，欢迎大家共同参与，做更多的创新以及贡献，包括但不限于以下内容：
-* 支持更多的调用方式；
-* 扩展中间件功能；
-* 提供更灵活、更便捷的服务治理功能；
+* [**鉴权**](auth.md)
 
-## 联系我们
-issue: [https://github.com/tal-tech/odin/issues](https://github.com/tal-tech/odin/issues)
+* [**插件化管理**](plugin.md)
+
+* [**服务开发**](develop/directory.md)
+    * [开发目录](develop/directory.md)
+    * [开发步骤一](develop/d1.md)
+    * [开发步骤二](develop/d2.md)
+    * [开发步骤三](develop/d3.md)
+
+* [**客户端**](client/genc.md)
+    * [生成SDK代码](client/genc.md)
+    * [SDK存放规范](client/position.md)
+
+* [**开发工具**](tool.md)
