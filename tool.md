@@ -1,7 +1,7 @@
 ### 开发工具
 -----------
 
-rigger工具提供多个命令，方便开发，提供效率，可自行选用
+[rigger](http://github.com/tal-tech/rigger)工具提供多个命令，方便开发，提供效率，可自行选用
 
 * build
 

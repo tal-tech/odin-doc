@@ -5,7 +5,7 @@
 * 调试项目请在linux系统中编译打包，windows不保证可正常运行
 
 ### 安装脚手架
-通过 rigger脚手架可一键创建odin模板的rpcx项目
+通过 [rigger](http://github.com/tal-tech/rigger)脚手架可一键创建odin模板的rpcx项目
 
 ### 生成框架
 
