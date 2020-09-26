@@ -11,7 +11,7 @@
 
 此处以"rpcproject"为项目名称
 ```shell
-$ rigger new micro rpcproject
+$ rigger new rpc rpcproject
 正克隆到 '/winshare/go/src/rpcproject'...
 rpcprojec项目已创建完成, 使用:
 cd /winshare/go/src/rpcproject && rigger build 
